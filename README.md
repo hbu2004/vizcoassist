@@ -3,7 +3,7 @@
 ## 👥 **Team Name: Drastic Innovators**  
 📍 **College:** Sri Eshwar College of Engineering  
 
-> **"Transforming Codebase Analysis & Customer Support with AI!"**  
+**"Transforming Codebase Analysis & Customer Support with AI!"**  
 
 ---
 
