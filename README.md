@@ -1,21 +1,158 @@
-# Greetings from the Drastic Innovators project! 🌟 We’re a passionate crew committed to breaking new ground in technology and innovation. Our mission is to craft transformative solutions that elevate user experiences and propel advancements across diverse domains.
+# 🚀 **VizCoAssist: AI-Powered Codebase Analysis & Call Agent Solution**  
 
-# Vizcoassist
+## 👥 **Team Name: Drastic Innovators**  
+📍 **College:** Sri Eshwar College of Engineering  
 
-*This standalone application empowers developers to upload a codebase and automatically generate clear, human-readable architecture diagrams. It provides both high-level overviews (e.g., system components, modules) and low-level details (e.g., function calls, dependencies), alongside summaries and insights like accessed data files.
+> **"Transforming Codebase Analysis & Customer Support with AI!"**  
 
-# Why do we need this??
+---
 
-*In today’s fast-paced development landscape, software projects often grow complex, making it challenging for developers—especially new team members or maintainers—to grasp the architecture and dependencies quickly. Manual analysis is time-consuming and error-prone, while outdated documentation fails to reflect current code states.
+## **📌 What is VizCoAssist?**  
 
-# Uploading:
+🔹 **VizCoAssist** is an AI-powered **codebase analysis tool & customer support assistant** that enhances software development efficiency and user interaction by:  
 
-*The Codebase Analyzer offers a seamless file upload system, allowing users to submit their project files effortlessly through an intuitive interface. It supports multiple upload methods, including individual files (e.g., .py, .js, .java) or compressed archives (e.g., .zip, .tar.gz) containing entire codebases.
+✅ **Codebase Analysis & Summarization** 🧑‍💻  
+✅ **AI Call Agent for Real-Time Assistance** 📞  
+✅ **Automated High-Level & Low-Level Architecture Generation** 📊  
+✅ **Tech Stack & Module Extraction** 🛠️  
+✅ **Code Quality & Security Assessment** ✅  
+✅ **RAG-Based Chatbot for Codebase Queries** 🤖  
 
-# Architecture:
+🎯 **Our Goal?** **To revolutionize how developers analyze, understand, and enhance codebases while providing AI-powered customer support.** 🚀  
 
-The Codebase Analyzer transforms uploaded codebases into clear, human-readable architecture diagrams with ease. It employs advanced parsing and analysis techniques to map out both high-level structures (e.g., modules, components, and their interactions) and low-level details (e.g., function calls, class relationships, and dependencies).
+🎥 **[🔗 Demo Video](#) - Watch VizCoAssist in Action!**  
 
-# Data and files accessed
+---
 
-The Codebase Analyzer provides a comprehensive overview of the uploaded codebase by generating detailed insights alongside architecture diagrams. It compiles an "overall data" summary, including metrics like code size, module count, and dependency complexity, offering a snapshot of the project’s scope and health.
+## **🔍 Why is VizCoAssist Needed?**  
+
+### ❌ **Challenges Faced Without VizCoAssist**  
+
+🔴 **Developers' Pain Points**  
+- Manually understanding large codebases is time-consuming ⏳  
+- No clear documentation or architecture visualization 📜  
+- Difficulty in assessing **code quality** and **security vulnerabilities** 🚨  
+- Need to integrate multiple tools for architecture diagrams, tech stack analysis, and summarization  
+
+🔴 **Customer Support Challenges**  
+- Slow response times ⏳  
+- **Text-based chatbots fail to handle complex user queries** ❌  
+- **Human agents struggle with repetitive questions** 😫  
+
+---
+
+# **🔄 VizCoAssist Workflow**  
+
+## **📊 Step-by-Step Explanation**  
+
+### **🟢 Step 1: Codebase Upload**
+🔹 The user uploads a **ZIP file** or provides a **Git Repository Link**.  
+🔹 Backend extracts the **project structure**, **files**, and **dependencies**.  
+
+### **🟢 Step 2: Code Analysis & Diagram Generation**
+🔹 VizCoAssist uses **OpenAI APIs** to analyze the **code structure**.  
+🔹 Generates **High-Level Architecture (Mermaid Diagram)** for an overview.  
+🔹 Creates **Low-Level Architecture (Mermaid Diagram)** for detailed flow.  
+
+### **🟢 Step 3: Summarization of Codebase & Individual Files**
+🔹 Uses **Ollama (Llama 3.2)** to generate:  
+✅ **Overall project summary** 📜  
+✅ **Individual file summary** (Click on a file to view insights)  
+
+### **🟢 Step 4: RAG-Based Chatbot for Code Querying**
+🔹 Users can ask **questions about the codebase**.  
+🔹 The **Retrieval-Augmented Generation (RAG) model** fetches relevant insights.  
+
+### **🟢 Step 5: Tech Stack & Quality Analysis**
+🔹 Extracts **Programming Languages, Frameworks, and Libraries Used**.  
+🔹 Calculates **Code Quality Score** based on best practices.  
+
+### **🟢 Step 6: AI Call Agent Assistance**
+🔹 **Users can interact with an AI-powered call agent** for assistance.  
+🔹 Handles **technical queries**, **troubleshooting**, and **customer support**.  
+
+📌 **🔗 Workflow Diagram:**  
+![image](https://github.com/logabaalan777/images/blob/main/assets/1.png)  
+
+---
+
+# **📞 Why We Need an AI Call Agent?**  
+
+### ❌ **Problems with Traditional Customer Support & Developer Assistants:**  
+1. **Text-based chatbots fail at complex multi-turn conversations** ❌  
+2. **Lack of voice support for real-time interaction** 🎙️  
+3. **No contextual understanding for technical discussions** 🤯  
+
+---
+
+## **🛠 AI Call Agent Features & Architecture**  
+
+### **📞 Step-by-Step AI Call Agent Flow**  
+
+### **🟢 Step 1: User Initiates a Call**
+🔹 Users connect via **phone or web-based AI voice assistant**.  
+🔹 Call gets **routed to the AI Call Agent**.  
+
+### **🟢 Step 2: Speech-to-Text Processing**
+🔹 The **user's speech is transcribed** using **Whisper API / Deepgram**.  
+
+### **🟢 Step 3: Intent Recognition & Query Processing**
+🔹 AI **detects the user’s intent** (e.g., bug fixing, documentation request).  
+🔹 The **OpenAI/Gemini model** understands the query context.  
+
+### **🟢 Step 4: AI Generates Responses**
+🔹 AI retrieves relevant information and **formats an intelligent response**.  
+🔹 Uses **Ollama (Llama 3.2)** for accurate code-related insights.  
+
+### **🟢 Step 5: Text-to-Speech (TTS) for AI Response**
+🔹 The response is **converted into human-like speech** using **ElevenLabs API**.  
+🔹 The user **hears the answer in real time** and can ask follow-up questions.  
+
+📌 **🔗 AI Call Agent Architecture:**  
+![image](https://github.com/logabaalan777/images/blob/main/assets/2.png)  
+
+---
+
+## **💻 Tech Stack Used in VizCoAssist**  
+
+### **Frontend** 🎨  
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge)  
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge)  
+
+### **Backend** ⚙️  
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)  
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white&style=for-the-badge)  
+
+### **AI & NLP** 🤖  
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white&style=for-the-badge)  
+![Gemini](https://img.shields.io/badge/Gemini-FFD700?logo=google&logoColor=black&style=for-the-badge)  
+![Ollama](https://img.shields.io/badge/Ollama-2E86C1?style=for-the-badge)  
+
+### **Database & Storage** 📊  
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge)  
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)  
+
+### **Voice & Telephony** 🎙️  
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?logo=twilio&logoColor=white&style=for-the-badge)  
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?logoColor=white&style=for-the-badge)  
+
+---
+
+## **🏆 Conclusion**  
+🔹 **VizCoAssist automates codebase understanding, security analysis, and customer support.**  
+🔹 **Our AI Call Agent redefines technical assistance and customer support.**  
+🔹 **By leveraging OpenAI, Ollama, and LLMs, we provide an AI-powered voice and text-based assistant.** 🚀  
+
+---
+
+## **🌟 Meet the Team**  
+| Name            | LinkedIn | GitHub |
+|----------------|----------|--------|
+| **Logabaalan R S** | [🔗 LinkedIn](https://www.linkedin.com/in/logabaalan-r-s-94ba82259/) | [🐙 GitHub](https://github.com/logabaalan777) |
+| **Karthikeyan M**  | [🔗 LinkedIn](https://www.linkedin.com/in/karthikeyan-m30112004/) | [🐙 GitHub](https://github.com/KarthikeyanM3011) |
+| **Monish G**       | [🔗 LinkedIn](https://www.linkedin.com/in/monish-g-37a88b259/) | [🐙 GitHub](#) |
+| **Hari Babu R**    | [🔗 LinkedIn](#) | [🐙 GitHub](#) |
+
+---
+
+📌 **Like Our Project?** ⭐ Star this repository and support us! 
