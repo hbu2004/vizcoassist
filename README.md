@@ -98,7 +98,7 @@
 
 ### **🟢 Step 3: Intent Recognition & Query Processing**
 🔹 AI **detects the user’s intent** (e.g., bug fixing, documentation request).  
-🔹 The **OpenAI/Gemini model** understands the query context.  
+🔹 The **OpenAI's model** understands the query context.  
 
 ### **🟢 Step 4: AI Generates Responses**
 🔹 AI retrieves relevant information and **formats an intelligent response**.  
@@ -116,25 +116,22 @@
 ## **💻 Tech Stack Used in VizCoAssist**  
 
 ### **Frontend** 🎨  
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge)  
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge)  
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge) 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)  
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge)  
 
 ### **Backend** ⚙️  
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)  
-![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white&style=for-the-badge)  
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge) 
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
 ### **AI & NLP** 🤖  
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white&style=for-the-badge)  
-![Gemini](https://img.shields.io/badge/Gemini-FFD700?logo=google&logoColor=black&style=for-the-badge)  
 ![Ollama](https://img.shields.io/badge/Ollama-2E86C1?style=for-the-badge)  
-
-### **Database & Storage** 📊  
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge)  
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)  
 
 ### **Voice & Telephony** 🎙️  
 ![Twilio](https://img.shields.io/badge/Twilio-F22F46?logo=twilio&logoColor=white&style=for-the-badge)  
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?logoColor=white&style=for-the-badge)  
+![Deepgram](https://img.shields.io/badge/Deepgram-000000?style=for-the-badge&logo=deepgram&logoColor=white)
 
 ---
 
